@@ -1,0 +1,61 @@
+/*    void inv(){
+        for(int i=0;i<r;i++){
+                d=matris[i][i];
+            for(int j=0;j<c;j++){
+                matris[i][j] = matris[i][j] / d;
+                birim_matris[i][j] = birim_matris[i][j] / d;
+            }
+            for(int x=0;x<c;x++){
+                if(x != i){
+                    k = matris[x][i];
+                    for(int t=0;t<c;t++){
+                        matris[x][t] = matris[x][t]-(matris[i][t] * k);
+                        birim_matris[x][t] = birim_matris[x][t]-(birim_matris[i][t] * k);
+                    }
+                }
+            }
+        }
+        cout << "Matrisin Tersi" << endl;
+        for(int p=0;p<r;p++){
+            for(int s=0;s<c;s++){
+                cout << birim_matris[p][s] << endl;;
+            }
+        }
+    }*/
+ /*  Matris operator + (const Matris & nesne){
+        Matris toplam;
+        for(int k=0; k<r; k++) {
+            for(int l=0; l<c; l++) {
+                toplam.deger = this -> deger + nesne.deger;
+		}
+    }
+        return toplam;
+    }
+    Matris operator=(const Matris &nesne )   // overloading operator =
+{
+    if(matris !=nesne.matris && c==nesne.c && r==nesne.r)
+     {
+       for(int i=0;i<r;i++)
+        for(int j=0;j<c;j++)
+            matris[i][j]=nesne.matris[i][j];
+     }
+}
+    Matris operator+(const Matris &nesne)const  //add 2 matrix
+{
+    Matris temp;
+    if (r!=nesne.r ||c!=nesne.c)
+    {
+       for(int i=0;i<r;i++)
+        for(int j=0;j<c;j++)
+            temp.matris[i][j]=matris[i][j];
+       return temp;
+    }
+    else
+     {
+         for(int i=0;i<r;i++)
+             for(int j=0;j<c;j++)
+                 temp.matris[i][j]+=nesne.matris[i][j]+matris[i][j];
+     }
+    return temp;
+}*/
+

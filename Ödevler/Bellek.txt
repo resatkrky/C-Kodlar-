@@ -1,0 +1,24 @@
+/*
+void asd(){
+    int **matris;
+    matris = (int **)malloc( 12 * sizeof(int) );
+	if( matris == NULL )
+		printf( "Yetersiz bellek!" );
+
+	// Daha sonra her satirda, sutun sayisi kadar hucrenin
+	// ayrilmasini sagliyoruz.
+	for(int i = 0; i < 12; i++ ) {
+		matris[i] = (int*)malloc( 12 * sizeof(int) );
+		if( matris[i] == NULL )
+			printf( "Yetersiz bellek!" );
+	}
+	for ( int k=0;k<12;k++)
+        for (int t=0;t<12;t++)
+            matris[k][t]=k+t;
+	for ( int k=0;k<12;k++){
+        for (int t=0;t<13;t++){
+            cout<<matris[k][t] <<" ";
+        }
+        cout<<endl;
+	}
+    }*/

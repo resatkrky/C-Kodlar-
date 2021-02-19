@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1575025601 source:c:\users\asus\desktop\asda\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<fstream>
+	<iomanip>
+
